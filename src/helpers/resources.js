@@ -1,4 +1,4 @@
-const info = [
+const resources = [
     {
       letter: "l",
       resource: "location",
@@ -13,4 +13,4 @@ const info = [
     }
   ];
 
-module.exports = info
+module.exports = resources

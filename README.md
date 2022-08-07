@@ -10,7 +10,7 @@ npm run dev
 try npm test for test in jest!
 try npm run dev for init the app!
 **
-
+ENDPOINT TO TEST http://localhost:4000/charcounter
 
 i make this app with lots of love!
 
