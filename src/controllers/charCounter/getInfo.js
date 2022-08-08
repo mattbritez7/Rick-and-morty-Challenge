@@ -1,15 +1,9 @@
-const axios = require('axios'); 
+const fetchApi = require('./fetchApi')
 const countLetter = require("./countLetter.js");
 
  const getInfo = async (resource, letter) => {
   try {
-    const fetchApi = await axios.get(
-      `https://rickandmortyapi.com/api/${resource}`
-    );
-    const data = fetchApi.data.results;
-    const dataName = data.map((e) => {
-      return e.name;
-    });
+    let dataName = await fetchApi(resource)
     let count = countLetter(dataName, letter, resource);
     return count
     
