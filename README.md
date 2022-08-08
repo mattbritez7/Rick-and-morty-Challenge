@@ -1,5 +1,5 @@
 # Rick-and-morty-Challenge
-Challege Rick and morty Challenge  created to  CHIPAX..
+Challenge Rick and morty Challenge  created to  CHIPAX..
 
 basic cli:
 npm install,
